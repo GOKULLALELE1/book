@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookwebsite</title>
+    <link rel="stylesheet" href="./book.css">
+    <link rel="icon" type="image/png" href="https://imgs.search.brave.com/MoDptlyXQenZKdq11181Mpd13qtMC4UcIRUVsnkGOok/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA1LzA0Lzg0LzE0/LzM2MF9GXzUwNDg0/MTQxMV9LT1ppSWFr/VFlHZEZINFgyWVRP/QkNKZlVkOXl3VWRQ/Uy5qcGc">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Grey+Qo&display=swap" rel="stylesheet">
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    body{
+        font-family: "Karla", sans-serif;
+        font-weight: 400;
+        font-style: normal;   
+    }
+    h1{
+        font-family: "Caveat", cursive;
+        font-weight: 800;
+        font-style: italic;
+    }
+</style>
+</head>
+<body>
+  <header class="sticky-top">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-lg bg-success">
+         <h1>bookeyyy</h1>
+        </div>
+      </nav>
+    </header>
+
+      <!-- <hr> -->
+      <nav class="navbar navbar-expand-lg bg-body-light m-3 p-1">
+        <div class="container-fluid">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/006/800/199/small/creative-abstract-book-feather-logo-design-vector.jpg" alt="" width="50px" height="34px">
+          <a class="navbar-brand fw-bolder" href="/" >Bookeyyy</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Books</a>
+              </li><br><hr>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Beautiful Books</a>
+              </li><br><hr>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categeries
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">kids</a></li>
+                  <li><a class="dropdown-item" href="#">Adults</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Funko</a></li>
+                </ul>
+              </li>
+              <h1>.......__</h1>
+              <h1 class="text-center">Bookeyyy</h1>
+              <h1>__...</h1>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Books names" aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit">Search</button>
+              </form>
+            </ul>
+            <div class="d-flex flex-sm-column text-center">
+                <i class="fa-solid fa-store mx-4 fs-5"></i> 
+                <p>Store</p>
+            </div>
+            <div class="d-flex flex-sm-column text-center">
+                <i class="fa-solid fa-location-dot mx-4 fs-5"></i>
+                <p>Location</p>
+            </div>
+            <div class="d-flex flex-sm-column text-center">
+                <i class="fa-regular fa-heart mx-4 fs-5"></i>
+                <p>Wishlist</p>
+            </div>
+            <div class="d-flex flex-sm-column text-center">
+                <i class="fa-solid fa-cart-shopping mx-4  fs-5"></i>
+                <p>Cart</p>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <img src="https://static.ffx.io/images/$zoom_0.384%2C$multiply_0.9735%2C$ratio_1.5%2C$width_756%2C$x_0%2C$y_0/t_crop_custom/q_86%2Cf_auto/23aebcc30ce72a57278086c1a901ec0d6c1d0919" width="100%" height="800px" alt="">
+      </div>
+      <hr>
+      <section id="gallery">
+        <h1 class="text-center mt-3">Trending Now: Today's Top Sellers</h1>
+        <hr>
+        <br>
+        <div class="row d-flex justify-content-evenly mt-3">
+            <div class="col-2"><img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-12/9/17/asset/d5be68e156f8/sub-buzz-2116-1639071263-9.jpg" alt="" width="200px">
+                <br>
+                Its ends with us <br>
+                Hardcover <br> <span  class="text-secondary">$50.0</span><br>
+                <button class="btn btn-outline-dark mt-1">
+                    AddtoCart
+                </button>
+            </div>
+            <div class="col-2"><img src="https://d28hgpri8am2if.cloudfront.net/book_images/cvr9781476753188/ugly-love-9781476753188_lg.jpg" alt="" width="200px">
+              <br>
+              Ugly love <br>
+              Colleen hoover<br> <span  class="text-secondary">$128.0</span><br>
+              <button class="btn btn-outline-dark mt-1">
+                  AddtoCart
+              </button>
+          </div>
+          <div class="col-2"><img src="https://m.media-amazon.com/images/I/71d5dY+xMvL._AC_UF1000,1000_QL80_.jpg" alt="" width="200px">
+            <br>
+            You are trending in my dream <br>
+            Sudeep nagarkar <br> <span  class="text-secondary">$78.0</span><br>
+            <button class="btn btn-outline-dark mt-1">
+                AddtoCart
+            </button>
+        </div>
+        <div class="col-2"><img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781534457690/these-violent-delights-9781534457690_xlg.jpg" alt="" width="200px">
+          <br>
+          These voilent delight <br>
+          Chloe Geng <br> <span  class="text-secondary">$60.0</span><br>
+          <button class="btn btn-outline-dark mt-1">
+              AddtoCart
+          </button>
+      </div>
+    </section><br><br><br>
+     <section id="gallery">
+      <div class="row d-flex justify-content-evenly mt-3">
+        <div class="col-2"><img src="https://shereads.com/wp-content/uploads/2023/02/71nT95JuVUL.jpg" alt="" width="200px">
+             <br>The house guest
+            <br> Lisa scottoline
+            <br> <span  class="text-secondary">$23.0</span><br>
+            <button class="btn btn-outline-dark mt-1">
+                AddtoCart
+            </button>
+        </div>
+        <div class="col-2"><img src="https://media.newyorker.com/photos/66685da82731ffbc871c3537/master/w_1000,c_limit/r44439.jpg" alt="" width="200px">
+          <br>
+          Ask me again <br>
+          Clare sestanovic<br> <span  class="text-secondary">$73.0</span><br>
+          <button class="btn btn-outline-dark mt-1">
+              AddtoCart
+          </button>
+      </div>
+      <div class="col-2"><img src="https://evoke.ie/wp-content/uploads/2020/01/51AlO2Ak0VL.jpg" alt="" width="200px">
+        <br>
+        Room <br>
+        Emma donoqhue <br> <span  class="text-secondary">$90.0</span><br>
+        <button class="btn btn-outline-dark mt-1">
+            AddtoCart
+        </button>
+    </div>
+    <div class="col-2"><img src="https://cdn.kobo.com/book-images/c8256931-8f87-4d89-bd95-ad5f2f55c218/1200/1200/False/trending-careers.jpg" alt="" width="200px">
+      <br>
+      Trending careers <br>
+       Deepthi sharma <br> <span  class="text-secondary">$45.0</span><br>
+      <button class="btn btn-outline-dark mt-1">
+          AddtoCart
+      </button>
+  </div>
+  <br>
+     </section>
+     <hr>
+     <section id="gallery">
+      <h1 class="text-center mt-3">Kids fiction books</h1>
+      <hr>
+      <br><br>
+       <div class="row d-flex justify-content-evenly mt-3">
+            <div class="col-2"><img src="https://imaginationsoup.net/wp-content/uploads/2021/10/Magic-Tree-House-The-Graphic-NOvel-Dinosaurs-Before-Dark-669x1024.jpeg" alt="" width="200px">
+                <br>
+                Magic three house <br>
+                jenny&kenny<br> <span  class="text-secondary">$52.0</span><br>
+                <button class="btn btn-outline-dark mt-1">
+                    AddtoCart
+                </button>
+            </div>
+            <div class="col-2"><img src="https://miro.medium.com/v2/resize:fit:856/1*BUdvbmqaFZu0ND771Dr0Ww.jpeg" alt="" width="200px">
+              <br>
+              Cats vs robots <br>
+              Lewin peterson<br> <span  class="text-secondary">$28.0</span><br>
+              <button class="btn btn-outline-dark mt-1">
+                  AddtoCart
+              </button>
+          </div>
+          <div class="col-2"><img src="https://theretrofuturist.com/wp-content/uploads/2019/01/space-cat-book-cover.jpg" alt="" width="200px">
+            <br>
+            Space cat <br>
+            Paul galdon <br> <span  class="text-secondary">$48.0</span><br>
+            <button class="btn btn-outline-dark mt-1">
+                AddtoCart
+            </button>
+        </div>
+        <div class="col-2"><img src="https://miro.medium.com/v2/resize:fit:856/1*CUoSWddIalkMoZwk6mXAAw.jpeg" alt="" width="200px">
+          <br>
+          COG<br>
+          Greg van <br> <span  class="text-secondary">$30.0</span><br>
+          <button class="btn btn-outline-dark mt-1">
+              AddtoCart
+          </button>
+      </div>
+    </section><br><br>
+     <section id="gallery">
+      <div class="row d-flex justify-content-evenly mt-5">
+        <div class="col-2"><img src="https://m.media-amazon.com/images/I/51-ytMxd7YL.jpg" alt="" width="200px">
+             <br>The lucky puppy
+            <br> Mike gryls
+            <br> <span  class="text-secondary">$29.0</span><br>
+            <button class="btn btn-outline-dark mt-1">
+                AddtoCart
+            </button>
+        </div>
+        <div class="col-2"><img src="https://childmind.org/wp-content/uploads/SomebodyCares-copy.jpg" alt="" width="200px">
+          <br>
+          Somebody cares <br>
+          Susan miles<br> <span  class="text-secondary">$12.0</span><br>
+          <button class="btn btn-outline-dark mt-1">
+              AddtoCart
+          </button>
+      </div>
+      <div class="col-2"><img src="https://assets-eu-01.kc-usercontent.com/bcd02f72-b50c-0179-8b4b-5e44f5340bd4/3093b0cf-a332-413a-b644-5ce71bdb0f9d/91YS0h1kz5L._SL1500_.jpg?w=270&h=416&auto=format&bg=%23efefef&fit=crop" alt="" width="200px">
+        <br>
+        Charlotte's web<br>
+        E B white <br> <span  class="text-secondary">$23.0</span><br>
+        <button class="btn btn-outline-dark mt-1">
+            AddtoCart
+        </button>
+    </div>
+    <div class="col-2"><img src="https://www.thechildrensbookreview.com/wp-content/uploads/2012/08/OliviaAndTheFairyPrincesses.jpeg" alt="" width="200px">
+      <br>
+      Olivia<br>
+       Ashikk <br> <span  class="text-secondary">$35.0</span><br>
+      <button class="btn btn-outline-dark mt-1">
+          AddtoCart
+      </button>
+  </div>
+  <br><br><hr><hr>
+  <section id="gallery">
+    <h1 class="text-center mt-3">Fantasy books</h1><hr>
+    <div class="row d-flex justify-content-evenly my-5">
+      <div class="col-5">
+        <h2>Manga books</h2>
+        <img src="https://images.ohmyhosting.se/1qfvjDSSBLM0o1NKy4cESvg2_Ao=/fit-in/1680x1050/smart/filters:quality(85)/https%3A%2F%2Fengelsbergideas.com%2Fwp-content%2Fuploads%2F2022%2F11%2FMy-Post-14-otm986s3zyazhwn7ozipt6un3m9giq6x82ed3vubvc.jpg" alt="" width="700px">
+      </div>
+      <div class="col-5">
+        <h2>Comic books</h2>
+        <img src="https://d3mvlb3hz2g78.cloudfront.net/wp-content/uploads/2017/09/thumb_720_450_dreamstime_xl_31771038.jpg" alt="" width="700px">
+      </div>
+    </div>
+  </section>
+  <hr>
+  <div class="text-center m-4">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/006/800/199/small/creative-abstract-book-feather-logo-design-vector.jpg" width="50px" alt="">
+    <h1 class="fw-normal text-secondary">Contact us here</h1>
+    <div class="container w-25 text-start bg-light my-3 rounded border p-3">
+        <form>
+            <label for=""> Username</label>
+            <input type="text" class="form-control">
+            <label for=""> Email address</label>
+            <input type="text" class="form-control">
+            <label for="">password</label>
+            <a style="margin-left: 125px;" class="text-end text-decoration-none float-end" href="https://github.com/password_reset">Forget password?</a>
+            <input type="text" class="form-control">
+            <label for="">Phone No</label>
+            <input type="text" class="form-control">
+            <div class="d-grid gap-2">
+                <button class="btn btn-success my-3" type="button">Sign in</button>
+            </div>
+        </form>
+    </div>
+    <div class="container border w-25 rounded p-2">
+        <a class="text-decoration-none" href="">Sign in with passkey</a>
+        <p>How to buy books <a href="https://github.com/login" class="text-decoration-none">Create an account</a></p>
+    </div>
+    <!-- <div style="margin-top: 170px;" class="container">
+        <a class="text-secondary text-decoration-none p-2" href="https://docs.github.com/en/site-policy/github-terms/github-terms-of-service">Terms</a>
+        <a class="text-secondary text-decoration-none p-2" href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy</a>
+        <a class="text-secondary text-decoration-none p-2" href="https://docs.github.com/en">Docs</a>
+        <a class="text-secondary text-decoration-none p-2" href="https://support.github.com/request/landing">Contact</a>
+        <a class="text-secondary text-decoration-none p-2" href="https://support.github.com/request/landing">Support</a>
+        <a class="text-secondary text-decoration-none p-2" href="https://support.github.com/request/landing">Manage cookies</a>
+        <a class="text-secondary text-decoration-none p-2" href="https://support.github.com/request/landing">Do not share my personal information</a>
+    </div> -->
+</div><hr>
+<div class="container-md bg-success">
+  <p><span class="fw-bolder"><h1>About US</h1></span>
+    Welcome to the literary haven of Books-A-Million, where every page turns into a new adventure.
+    Immerse yourself in a world of boundless imagination, where the written word comes alive in vibrant hues and captivating prose. From timeless classics to contemporary bestsellers, our shelves are brimming with literary treasures waiting to be discovered. Explore our extensive selection of books, spanning every genre and interest imaginable, and embark on journeys that transport you to distant lands, ignite your curiosity, and stir your soul.
+    
+    But Books-A-Million is more than just a bookstore - it's a sanctuary for bibliophiles, a gathering place for book lovers, and a haven for the literary-minded. Dive into our exclusive collections of autographed books, where each signature tells a story of connection between author and reader. Delve into the mesmerizing world of manga, where graphic novels and comics breathe life into vibrant characters and epic tales. Explore our curated sections for young adults, where stories resonate with the joys, challenges, and triumphs of adolescence.
+    
+    Beyond books, Books-A-Million offers an array of treasures to delight the senses and spark inspiration. Browse our selection of calendars, featuring breathtaking imagery and motivational quotes to brighten every day of the year. Discover the latest BookTok sensations, recommended by creators and beloved by readers worldwide, and join the conversation shaping literary trends.
+    
+    Whether you're a seasoned bibliophile, a casual reader, or someone just beginning their literary journey, Books-A-Million welcomes you with open arms. Lose yourself in the magic of storytelling, connect with fellow book lovers, and make new discoveries with each visit. With our passion for literature and commitment to excellence, Books-A-Million is more than just a bookstore - it's a destination where stories come to life, dreams take flight, and the thrill of the written word knows no bounds.</p>
+</div>
+<footer class="bg-light text-dark py-4">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-4">
+              <p class="mb-1">&copy; 2024 <a href="#" class="text-dark">Bookeyy for books</a></p>
+              <p class="mb-0">For purchase all kinds books</p>
+          </div>
+          <div class="col-md-4">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                  <li>📞 Phone: (123) 456-7890</li>
+                  <li>✉️ Email: <a href="bookeyyyfor23books.com" class="text-dark">bookeyyy@books</a></li>
+                  <li>📍 Address: 123 Woodcraft Lane, Suite 100, Your City, State, ZIP</li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h5>Follow Us</h5>
+              <ul class="list-unstyled d-flex">
+                  <li class="mr-3"><a href="#" class="text-dark">Facebook</a></li>
+                  <li class="mr-3"><a href="#" class="text-dark">Instagram</a></li>
+                  <li class="mr-3"><a href="#" class="text-dark">Pinterest</a></li>
+                  <li><a href="#" class="text-dark">Twitter</a></li>
+              </ul>
+              <h5 class="mt-4">Customer Service</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-dark">FAQs</a></li>
+                  <li><a href="#" class="text-dark">Shipping & Returns</a></li>
+                  <li><a href="#" class="text-dark">Care Instructions</a></li>
+                  <li><a href="#" class="text-dark">Contact Support</a></li>
+              </ul>
+              <!-- <h5 class="mt-4">Company</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-dark">About Us</a></li>
+                  <li><a href="#" class="text-dark">Our Story</a></li>
+                  <li><a href="#" class="text-dark">Sustainability</a></li>
+                  <li><a href="#" class="text-dark">Careers</a></li>
+              </ul>
+              <h5 class="mt-4">Legal</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-dark">Privacy Policy</a></li>
+                  <li><a href="#" class="text-dark">Terms & Conditions</a></li>
+              </ul>
+              <h5 class="mt-4">Newsletter Signup</h5>
+              <a href="#" class="btn btn-primary">Subscribe</a>
+          </div> -->
+      </div>
+      <div class="text-center mt-4">
+          <p class="mb-0">Any helps <a href="#" class="text-dark">Visit WWW.BOOKEYY.COM</a></p>
+      </div>
+  </div>
+</footer>
+
+      
+    
+</body>
+</html>
